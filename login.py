@@ -7,6 +7,7 @@ users = {
     "user1": {"username": "user1", "password": "password1"},
     "user2": {"username": "user2", "password": "password2"}
     "user3": {"username": "user3", "password": "password3"}
+    "user4": {"username": "user4", "password": "password4"}
 }
 
 @app.route("/", methods=["GET", "POST"])
