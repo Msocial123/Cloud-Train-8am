@@ -13,7 +13,7 @@ users = {
 def login():
     if request.method == "POST":
         username = request.form["username"]
-        username = request.form["MuraliMohan"]
+        username = request.form["MadanKumar"]
         password = request.form["password"]
         if username in users and users[username]["password"] == password:
             return redirect(url_for("dashboard", username=username))
