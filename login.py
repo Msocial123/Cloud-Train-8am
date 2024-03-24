@@ -20,6 +20,7 @@ def login():
         else:
             error = "Invalid username or password. Please try again."
             return render_template("login.html", error=error)
+            return render_template("login.html", error=error)
     return render_template("login.html")
 
 @app.route("/dashboard/<username>")
