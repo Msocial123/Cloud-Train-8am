@@ -18,9 +18,12 @@ public class AdditionWithScanner {
         // Displaying the result
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
 
+<<<<<<< HEAD
         // Displaying the result
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
 
+=======
+>>>>>>> eef8119 (Commiting the Code)
         scanner.close(); // Closing the scanner to prevent resource leak
     }
 }
