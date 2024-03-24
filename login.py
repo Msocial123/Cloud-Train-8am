@@ -8,6 +8,7 @@ users = {
     "user2": {"username": "user2", "password": "password2"}
     "user3": {"username": "user3", "password": "password3"}
     "user4": {"username": "user4", "password": "password4"}
+    "user4": {"username": "user4", "password": "password4"}
 }
 
 @app.route("/", methods=["GET", "POST"])
@@ -20,6 +21,7 @@ def login():
             return redirect(url_for("dashboard", username=username))
         else:
             error = "Invalid username or password. Please try again."
+            return render_template("login.html", error=error)
             return render_template("login.html", error=error)
             return render_template("login.html", error=error)
     return render_template("login.html")

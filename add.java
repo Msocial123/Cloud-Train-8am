@@ -23,7 +23,11 @@ public class AdditionWithScanner {
         System.out.println("The sum of " + firstNumber + " and " + secondNumber + " is: " + sum);
 
 =======
+<<<<<<< HEAD
 >>>>>>> eef8119 (Commiting the Code)
+=======
+>>>>>>> eef8119d22143ff04b78eadf18932a6a06680aa7
+>>>>>>> 547c373d199abba26736a9cf4de4f385a15ec071
         scanner.close(); // Closing the scanner to prevent resource leak
     }
 }
